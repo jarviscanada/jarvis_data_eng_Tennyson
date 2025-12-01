@@ -1,9 +1,11 @@
 #!/bin/bash
 
+#Command Line Arguments
 cmd=$1;
 username=$2;
 password=$3;
 
+#Start command
 if [ "$cmd" = "start" ]; then
   if [ -n "$(docker ps -aq -f name=jrvs-psql)" ]; then
     docker start jrvs-psql
@@ -14,6 +16,7 @@ if [ "$cmd" = "start" ]; then
   fi
 fi
 
+#Stop Command
 if [ "$cmd" = "stop" ]; then
   if [ -n "$(docker ps -aq -f name=jrvs-psql)" ]; then
     docker stop jrvs-psql
@@ -29,6 +32,7 @@ if [ "$cmd" = "create" ] && [ $# -lt 3 ]; then
   exit 1
 fi
 
+#Create command
 if [ "$cmd" = "create" ]; then
   if [ -n "$(docker ps -aq -f name=jrvs-psql)" ]; then
     echo "Container for already exists"
