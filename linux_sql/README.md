@@ -41,7 +41,7 @@ The Linux Cluster Monitoring system collects hardware information and live usage
 
 ### Diagram
 
-![Cluster Architecture](assets/Linux Cluster Monitoring.drawio.png)
+![Cluster Architecture](assets/architecture_diagram.png)
 
 The Linux Cluster Monitoring system consists of multiple Linux hosts (agents) and a central PostgreSQL database running in Docker on a GCP VM. Each host runs data collection scripts to gather hardware and usage metrics, which are then sent to the central database.
 
