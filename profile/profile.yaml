@@ -122,5 +122,6 @@ others:
     #bullets:
       #- "Winner"
   - title: "Activities/Hobbies"
+    bullets:
      - "Infinite Flight Simulator Pilot"
      - "Recreational Badminton Player"
