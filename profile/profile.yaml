@@ -112,7 +112,7 @@ education:
       - "Best Outgoing Youth Red Cross Member 2022"
 
 #Optional section
-#others:
+others:
     #category
   #- title: "Certificates"
     #list of items
@@ -121,7 +121,6 @@ education:
   #- title: "Awards"
     #bullets:
       #- "Winner"
-  #- title: "Activities/Hobbies"
-    # - "Basketball player"
-      #- "Competitive gaming"
-      #- "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+  - title: "Activities/Hobbies"
+     - "Infinite Flight Simulator Pilot"
+     - "Recreational Badminton Player"
