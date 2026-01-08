@@ -12,7 +12,7 @@ summary: "I am an emerging Data and AI professional with a strong academic found
 skills:
   # At least 5 skills
   proficient:
-    - Python
+    - "Python"
     - SQL / RDBMS
     - Linux / Bash
     - Git / GitHub
@@ -70,41 +70,31 @@ jarvis_projects:
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
-    #project name
- - name: "Virtual Reality Impact Analysis on Student Engagement"
-  #URL is optional
-  git_url: ""
-  # The project description must start with an action verb
-  description: "Built an end-to-end analytics and ML workflow to evaluate how virtual reality (VR) adoption influences student engagement and collaboration. Cleaned and transformed survey/learning datasets in Python, performed exploratory analysis, and designed interactive Tableau dashboards to communicate key trends. Trained an XGBoost classifier to predict learning outcome improvement, engineered features (e.g., engagement ratio), and evaluated results using precision, accuracy, and confusion matrices to recommend targeted VR deployment strategies."
+  - name: "Virtual Reality Impact Analysis on Student Engagement"
+    git_url: ""
+    description: "Built an end-to-end analytics and ML workflow to evaluate how virtual reality (VR) adoption influences student engagement and collaboration. Cleaned and transformed survey/learning datasets in Python, performed exploratory analysis, and designed interactive Tableau dashboards to communicate key trends. Trained an XGBoost classifier to predict learning outcome improvement, engineered features (e.g., engagement ratio), and evaluated results using precision, accuracy, and confusion matrices to recommend targeted VR deployment strategies."
 
   - name: "Analysis of Student Perception of Professors"
-  #URL is optional
-  git_url: ""
-  # The project description must start with an action verb
-  description: "Developed an NLP-driven analytics pipeline to analyze over 5,000 student reviews and extract insights into professor performance and teaching effectiveness. Cleaned and processed unstructured text data, applied sentiment analysis using VADER, and clustered professors based on feedback patterns using Scikit-learn. Integrated OpenAI APIs to extract nuanced character traits from comments and built interactive Power BI dashboards (served via Flask) to deliver clear, actionable insights for academic decision-making."
+    git_url: ""
+    description: "Developed an NLP-driven analytics pipeline to analyze over 5,000 student reviews and extract insights into professor performance and teaching effectiveness. Cleaned and processed unstructured text data, applied sentiment analysis using VADER, and clustered professors based on feedback patterns using Scikit-learn. Integrated OpenAI APIs to extract nuanced character traits from comments and built interactive Power BI dashboards (served via Flask) to deliver clear, actionable insights for academic decision-making."
 
   - name: "Human vs LLM Text Classification"
-  #URL is optional
-  git_url: ""
-  # The project description must start with an action verb
-  description: "Designed and evaluated machine learning models to distinguish between human-written and AI-generated text at scale. Performed extensive text preprocessing and feature engineering using TF-IDF and Word2Vec embeddings, applied dimensionality reduction with PCA, and trained binary and multi-class classifiers. Achieved strong classification performance using Random Forest and MLP models, validated results with cross-validation and confusion matrices, and optimized models for scalability through hyperparameter tuning and model serialization"
+    git_url: ""
+    description: "Designed and evaluated machine learning models to distinguish between human-written and AI-generated text at scale. Performed extensive text preprocessing and feature engineering using TF-IDF and Word2Vec embeddings, applied dimensionality reduction with PCA, and trained binary and multi-class classifiers. Achieved strong classification performance using Random Forest and MLP models, validated results with cross-validation and confusion matrices, and optimized models for scalability through hyperparameter tuning and model serialization."
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
-  #Write your Jarvis role as a professional experience rather than training.
   - title: "Data Analyst"
     company: "Jarvis Consulting"
     duration: "Nov 2025 - Present"
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Delivered hands-on experience in data analysis and systems monitoring as part of Jarvis Consulting. Analyzed large, structured datasets using Python and SQL to derive business insights, perform data cleaning, and build reproducible analytics workflows. Designed and implemented a Linux Cluster Monitoring solution using Bash, Docker, and PostgreSQL to collect, store, and analyze real-time system metrics across multiple nodes. Applied Agile practices, Git-based version control, and clear documentation to deliver production-style, scalable solutions aligned with real-world engineering standards."
 
   - title: "Analyst"
-  company: "Deloitte Consulting"
-  duration: "Jan 2023 – Dec 2023"
-  description: "Contributed to data-driven and GenAI initiatives within cross-functional Agile teams, focusing on data analysis, automation, and insight generation. Analyzed structured business data using Python and SQL to support reporting, reconciliation, and decision-making workflows. Built and validated GenAI proof-of-concepts using OpenAI APIs and LangChain, performed QA and UAT to ensure data accuracy and requirement alignment, and supported defect tracking and delivery through Azure DevOps while communicating progress and metrics to senior stakeholders."
-
+    company: "Deloitte Consulting"
+    duration: "Jan 2023 – Dec 2023"
+    description: "Contributed to data-driven and GenAI initiatives within cross-functional Agile teams, focusing on data analysis, automation, and insight generation. Analyzed structured business data using Python and SQL to support reporting, reconciliation, and decision-making workflows. Built and validated GenAI proof-of-concepts using OpenAI APIs and LangChain, performed QA and UAT to ensure data accuracy and requirement alignment, and supported defect tracking and delivery through Azure DevOps while communicating progress and metrics to senior stakeholders."
 #List of edcuation
 education: 
   - school_name: "University of Windsor"
