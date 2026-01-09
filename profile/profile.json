@@ -1,0 +1,102 @@
+{
+  "education": [
+    {
+      "awards_achievements": [
+        "GPA: 3.8/4.0"
+      ],
+      "degree": "Master of Applied Computing (AI)",
+      "department": "Computer Science",
+      "duration": "Jan 2024 - APr 2025",
+      "school_name": "University of Windsor"
+    },
+    {
+      "awards_achievements": [
+        "Best Outgoing Youth Red Cross Member 2022"
+      ],
+      "degree": "Bachelor of Engineering",
+      "department": "Computer Science",
+      "duration": "Aug 2018 - Jun 2022",
+      "school_name": "Thiagarajar College of Engineering"
+    }
+  ],
+  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_Tennyson",
+  "highlighted_projects": [
+    {
+      "description": "Built an end-to-end analytics and ML workflow to evaluate how virtual reality (VR) adoption influences student engagement and collaboration. Cleaned and transformed survey/learning datasets in Python, performed exploratory analysis, and designed interactive Tableau dashboards to communicate key trends. Trained an XGBoost classifier to predict learning outcome improvement, engineered features (e.g., engagement ratio), and evaluated results using precision, accuracy, and confusion matrices to recommend targeted VR deployment strategies.",
+      "git_url": "",
+      "name": "Virtual Reality Impact Analysis on Student Engagement"
+    },
+    {
+      "description": "Developed an NLP-driven analytics pipeline to analyze over 5,000 student reviews and extract insights into professor performance and teaching effectiveness. Cleaned and processed unstructured text data, applied sentiment analysis using VADER, and clustered professors based on feedback patterns using Scikit-learn. Integrated OpenAI APIs to extract nuanced character traits from comments and built interactive Power BI dashboards (served via Flask) to deliver clear, actionable insights for academic decision-making.",
+      "git_url": "",
+      "name": "Analysis of Student Perception of Professors"
+    },
+    {
+      "description": "Designed and evaluated machine learning models to distinguish between human-written and AI-generated text at scale. Performed extensive text preprocessing and feature engineering using TF-IDF and Word2Vec embeddings, applied dimensionality reduction with PCA, and trained binary and multi-class classifiers. Achieved strong classification performance using Random Forest and MLP models, validated results with cross-validation and confusion matrices, and optimized models for scalability through hyperparameter tuning and model serialization.",
+      "git_url": "",
+      "name": "Human vs LLM Text Classification"
+    }
+  ],
+  "jarvis_projects": [
+    {
+      "description": "Designed and implemented a Linux cluster monitoring system to collect hardware specifications and real-time usage metrics from multiple hosts using Bash scripts, Docker, PostgreSQL, and GCP. Automated metric collection with cron jobs, modeled relational database schema for analytics, and documented the system following SDLC principles.",
+      "git_url": "/linux_sql",
+      "name": "Linux Cluster Monitoring"
+    },
+    {
+      "description": "Built an end-to-end Python Data Analytics project focused on transforming raw retail transaction data into business-ready insights. The project involved extensive data cleaning and validation (handling missing customer IDs, cancellations, negative quantities, and outliers), exploratory data analysis, and KPI development such as total revenue, average order value, active customers, revenue per customer, customer concentration, and RFM segmentation. Analysis was performed using Python with Pandas, NumPy, and Matplotlib, supported by SQL for data extraction and validation, and Jupyter Notebooks for reproducible analysis. The outcome was a structured, insight-driven analytics workflow designed to support executive-level decision making through clear metrics, visualizations, and data-backed narratives.",
+      "git_url": "/python_data_anlytics",
+      "name": "Python Data Analytics"
+    }
+  ],
+  "name": "Abishek Joshua Tennyson",
+  "others": [
+    {
+      "bullets": [
+        "Infinite Flight Simulator Pilot",
+        "Recreational Badminton Player"
+      ],
+      "title": "Activities/Hobbies"
+    }
+  ],
+  "professional_experience": [
+    {
+      "company": "Jarvis Consulting",
+      "description": "Delivered hands-on experience in data analysis and systems monitoring as part of Jarvis Consulting. Analyzed large, structured datasets using Python and SQL to derive business insights, perform data cleaning, and build reproducible analytics workflows. Designed and implemented a Linux Cluster Monitoring solution using Bash, Docker, and PostgreSQL to collect, store, and analyze real-time system metrics across multiple nodes. Applied Agile practices, Git-based version control, and clear documentation to deliver production-style, scalable solutions aligned with real-world engineering standards.",
+      "duration": "Nov 2025 - Present",
+      "title": "Data Analyst"
+    },
+    {
+      "company": "Deloitte Consulting",
+      "description": "Contributed to data-driven and GenAI initiatives within cross-functional Agile teams, focusing on data analysis, automation, and insight generation. Analyzed structured business data using Python and SQL to support reporting, reconciliation, and decision-making workflows. Built and validated GenAI proof-of-concepts using OpenAI APIs and LangChain, performed QA and UAT to ensure data accuracy and requirement alignment, and supported defect tracking and delivery through Azure DevOps while communicating progress and metrics to senior stakeholders.",
+      "duration": "Jan 2023 – Dec 2023",
+      "title": "Analyst"
+    }
+  ],
+  "skills": {
+    "competent": [
+      "Data Analysis (Pandas, NumPy)",
+      "Machine Learning (Scikit-learn, XGBoost)",
+      "Data Visualization (Matplotlib, Seaborn)",
+      "Docker",
+      "IDEs (Jupyter Notebook, VS Code)"
+    ],
+    "familiar": [
+      "Deep Learning (TensorFlow, Keras)",
+      "NLP (NLTK, HuggingFace)",
+      "Cloud Data Storage (AWS S3, BigQuery)",
+      "Generative AI (OpenAI API, LangChain)",
+      "Vector Databases (FAISS)",
+      "Azure DevOps",
+      "Django"
+    ],
+    "proficient": [
+      "Python",
+      "SQL / RDBMS",
+      "Linux / Bash",
+      "Git / GitHub",
+      "Agile / Scrum"
+    ]
+  },
+  "summary": "I am an emerging Data and AI professional with a strong academic foundation in Computer Science and Artificial Intelligence, currently holding a Master of Applied Computing (AI) and a Bachelor’s degree in Computer Science Engineering. I have hands-on industry experience from my time at Deloitte Consulting, where I worked on multiple GenAI-driven solutions, collaborated with cross-functional Agile teams, and translated complex data problems into practical, business-ready outcomes. What excites me most about the software industry is its ability to turn ideas into scalable, real-world impact. I am particularly passionate about Data Analytics and AI because they sit at the intersection of logic and creativity, allowing me to build systems that learn, adapt, and support better decision-making. I enjoy solving ambiguous problems, continuously learning new technologies, and using software to create meaningful, measurable value."
+}
