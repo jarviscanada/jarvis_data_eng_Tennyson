@@ -1,17 +1,26 @@
+<<<<<<< HEAD
 # Preferred name i(Characters only)
+=======
+# Preferred name (Characters only)
+>>>>>>> feature/profile
 name: "Abishek Joshua Tennyson"
 # Your GitHub repo root URL
 github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_Tennyson
 
 # Introduce yourself, your academic and professional background.
 # What excites you about the software industry and your passion. At least 80 words
+<<<<<<< HEAD
 summary: Emerging data professional with a Master's degree in Applied Computing and hands-on experience working across data and machine learning projects. Skilled in Python and SQL, with a strong foundation in data visualization and practical exposure to data engineering concepts through academic and project-based work.Brings a proactive mindset, adaptability, and a genuine interest in transforming data into actionable insights. Open to entry-level data roles across analytics and engineering.
+=======
+summary: "I am an emerging Data and AI professional with a strong academic foundation in Computer Science and Artificial Intelligence, currently holding a Master of Applied Computing (AI) and a Bachelor’s degree in Computer Science Engineering. I have hands-on industry experience from my time at Deloitte Consulting, where I worked on multiple GenAI-driven solutions, collaborated with cross-functional Agile teams, and translated complex data problems into practical, business-ready outcomes. What excites me most about the software industry is its ability to turn ideas into scalable, real-world impact. I am particularly passionate about Data Analytics and AI because they sit at the intersection of logic and creativity, allowing me to build systems that learn, adapt, and support better decision-making. I enjoy solving ambiguous problems, continuously learning new technologies, and using software to create meaningful, measurable value."
+>>>>>>> feature/profile
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
 skills:
   # At least 5 skills
   proficient:
+<<<<<<< HEAD
     - Python
     - SQL
     - Linux
@@ -35,10 +44,42 @@ skills:
 # List of Jarvis projects
 jarvis_projects:
   - name: "Linux Cluster Monitoring System"
+=======
+    - "Python"
+    - SQL / RDBMS
+    - Linux / Bash
+    - Git / GitHub
+    - Agile / Scrum
+
+  # At least 5 skills
+  competent:
+    - Data Analysis (Pandas, NumPy)
+    - Machine Learning (Scikit-learn, XGBoost)
+    - Data Visualization (Matplotlib, Seaborn)
+    - Docker
+    - IDEs (Jupyter Notebook, VS Code)
+   
+
+  # At least 5 skills
+  familiar:
+    - Deep Learning (TensorFlow, Keras)
+    - NLP (NLTK, HuggingFace)
+    - Cloud Data Storage (AWS S3, BigQuery)
+    - Generative AI (OpenAI API, LangChain)
+    - Vector Databases (FAISS)
+    - Azure DevOps
+    - Django
+
+
+# List of Jarvis projects
+jarvis_projects:
+  - name: "Linux Cluster Monitoring"
+>>>>>>> feature/profile
     git_url: "/linux_sql"
     # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
     # The project description must start with an action verb (https://bit.ly/3guO98u)
     description: "Designed and implemented a Linux cluster monitoring system to collect hardware specifications and real-time usage metrics from multiple hosts using Bash scripts, Docker, PostgreSQL, and GCP. Automated metric collection with cron jobs, modeled relational database schema for analytics, and documented the system following SDLC principles."
+<<<<<<< HEAD
   - name: "Core Java Apps"
     git_url: "/core_java"
     description:
@@ -60,10 +101,34 @@ jarvis_projects:
   - name: "Cloud/DevOps"
     git_url: "/cloud_devops"
     description: ""
+=======
+  #- name: "Core Java Apps"
+   # git_url: "/core_java"
+    #description:
+     # - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      #- "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+      #- "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
+  #- name: "Springboot App"
+    #git_url: "/springboot"
+    #description: ""
+  - name: "Python Data Analytics"
+    git_url: "/python_data_anlytics"
+    description: "Built an end-to-end Python Data Analytics project focused on transforming raw retail transaction data into business-ready insights. The project involved extensive data cleaning and validation (handling missing customer IDs, cancellations, negative quantities, and outliers), exploratory data analysis, and KPI development such as total revenue, average order value, active customers, revenue per customer, customer concentration, and RFM segmentation. Analysis was performed using Python with Pandas, NumPy, and Matplotlib, supported by SQL for data extraction and validation, and Jupyter Notebooks for reproducible analysis. The outcome was a structured, insight-driven analytics workflow designed to support executive-level decision making through clear metrics, visualizations, and data-backed narratives."
+  #- name: "Hadoop"
+    #git_url: "/hadoop"
+    #description: ""
+ # - name: "Spark"
+    #git_url: "/spark"
+    #description: ""
+  #- name: "Cloud/DevOps"
+    #git_url: "/cloud_devops"
+    #description: ""
+>>>>>>> feature/profile
 
 # List of personal or academic projects
 # Feel free to add more projects
 highlighted_projects:
+<<<<<<< HEAD
     #project name
   - name: "Web app for resturant"
     #URL is optional
@@ -73,11 +138,25 @@ highlighted_projects:
   - name: "Machine Learning"
     git_url:
     description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
+=======
+  - name: "Virtual Reality Impact Analysis on Student Engagement"
+    git_url: ""
+    description: "Built an end-to-end analytics and ML workflow to evaluate how virtual reality (VR) adoption influences student engagement and collaboration. Cleaned and transformed survey/learning datasets in Python, performed exploratory analysis, and designed interactive Tableau dashboards to communicate key trends. Trained an XGBoost classifier to predict learning outcome improvement, engineered features (e.g., engagement ratio), and evaluated results using precision, accuracy, and confusion matrices to recommend targeted VR deployment strategies."
+
+  - name: "Analysis of Student Perception of Professors"
+    git_url: ""
+    description: "Developed an NLP-driven analytics pipeline to analyze over 5,000 student reviews and extract insights into professor performance and teaching effectiveness. Cleaned and processed unstructured text data, applied sentiment analysis using VADER, and clustered professors based on feedback patterns using Scikit-learn. Integrated OpenAI APIs to extract nuanced character traits from comments and built interactive Power BI dashboards (served via Flask) to deliver clear, actionable insights for academic decision-making."
+
+  - name: "Human vs LLM Text Classification"
+    git_url: ""
+    description: "Designed and evaluated machine learning models to distinguish between human-written and AI-generated text at scale. Performed extensive text preprocessing and feature engineering using TF-IDF and Word2Vec embeddings, applied dimensionality reduction with PCA, and trained binary and multi-class classifiers. Achieved strong classification performance using Random Forest and MLP models, validated results with cross-validation and confusion matrices, and optimized models for scalability through hyperparameter tuning and model serialization."
+>>>>>>> feature/profile
 
 #List of professional experience
 #The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
+<<<<<<< HEAD
   #Write your Jarvis role as a professional experience rather than training.
   - title: "Software Developer"
     company: "Jarvis"
@@ -105,10 +184,37 @@ education:
     degree: "Master of Engineering"
     department: "Electrical and Computer Engineering"
     awards_achievements: 
+=======
+  - title: "Data Analyst"
+    company: "Jarvis Consulting"
+    duration: "Nov 2025 - Present"
+    description: "Delivered hands-on experience in data analysis and systems monitoring as part of Jarvis Consulting. Analyzed large, structured datasets using Python and SQL to derive business insights, perform data cleaning, and build reproducible analytics workflows. Designed and implemented a Linux Cluster Monitoring solution using Bash, Docker, and PostgreSQL to collect, store, and analyze real-time system metrics across multiple nodes. Applied Agile practices, Git-based version control, and clear documentation to deliver production-style, scalable solutions aligned with real-world engineering standards."
+
+  - title: "Analyst"
+    company: "Deloitte Consulting"
+    duration: "Jan 2023 – Dec 2023"
+    description: "Contributed to data-driven and GenAI initiatives within cross-functional Agile teams, focusing on data analysis, automation, and insight generation. Analyzed structured business data using Python and SQL to support reporting, reconciliation, and decision-making workflows. Built and validated GenAI proof-of-concepts using OpenAI APIs and LangChain, performed QA and UAT to ensure data accuracy and requirement alignment, and supported defect tracking and delivery through Azure DevOps while communicating progress and metrics to senior stakeholders."
+#List of edcuation
+education: 
+  - school_name: "University of Windsor"
+    duration: "Jan 2024 - APr 2025"
+    degree: "Master of Applied Computing (AI)"
+    department: "Computer Science"
+    # optional
+    awards_achievements: 
+      - "GPA: 3.8/4.0"
+  - school_name: "Thiagarajar College of Engineering"
+    duration: "Aug 2018 - Jun 2022"
+    degree: "Bachelor of Engineering"
+    department: "Computer Science"
+    awards_achievements: 
+      - "Best Outgoing Youth Red Cross Member 2022"
+>>>>>>> feature/profile
 
 #Optional section
 others:
     #category
+<<<<<<< HEAD
   - title: "Certificates"
     #list of items
     bullets:
@@ -121,3 +227,16 @@ others:
       - "Basketball player"
       - "Competitive gaming"
       - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+=======
+  #- title: "Certificates"
+    #list of items
+    #bullets:
+     # - "Udacity Machine Learning (2019)"
+  #- title: "Awards"
+    #bullets:
+      #- "Winner"
+  - title: "Activities/Hobbies"
+    bullets:
+     - "Infinite Flight Simulator Pilot"
+     - "Recreational Badminton Player"
+>>>>>>> feature/profile
